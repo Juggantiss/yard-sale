@@ -75,6 +75,11 @@ nav {
   margin-right: 12px;
 }
 
+.navbar-email img {
+  margin-left: 10px;
+  transform: rotate(90deg);
+}
+
 .navbar-shopping-cart {
   position: relative;
 }
@@ -92,6 +97,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0.8;
 }
 
 @media (max-width: 640px) {
